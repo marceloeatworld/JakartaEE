@@ -8,11 +8,12 @@ Ce projet d'exemple vous montre comment configurer un projet Jakarta EE dans Int
    
    ![Création du projet dans IntelliJ Community](1.png)
 
-2. Importez la bibliothèque servlet Jakarta dans une classe Java.
+2. Importez la bibliothèque servlet Jakarta et JFC dans une classe Java.
+  - pour importer JFC : import jakarta.faces.*;
    
    ![Importation de Servlet Jakarta dans une classe Java](2.png)
 
-3. Configurez Tomcat dans IntelliJ Community.
+4. Configurez Tomcat dans IntelliJ Community.
    
    ![Configuration de Tomcat dans IntelliJ Community](tomcat.png)
 

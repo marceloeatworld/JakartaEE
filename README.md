@@ -9,22 +9,28 @@ Ce projet d'exemple vous montre comment configurer un projet Jakarta EE dans Int
    ![Création du projet dans IntelliJ Community](1.png)
 
 2. Importez la bibliothèque servlet Jakarta.
+     ` import jakarta.servlet.*;
+       import jakarta.servlet.http.*;
+       import jakarta.servlet.annotation.*;  ` 
    
    ![Importation de Servlet Jakarta dans une classe Java](2.png)
    
- 3. Importez la bibliothèque JSF.
+ 4. Importez la bibliothèque JSF.
     
    ` import jakarta.faces.*;`
    
  5. Importez la bibliothèque TSTL.
     
-  - pom.xml: 
+  - pom.xml:
+    
      `   <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>`
+    
    - et dans la vue jsp:
+     
    `  <%@ taglib prefix="c" uri="jakarta.tags.core" %>`
   
 

@@ -1,6 +1,6 @@
-# Projet d'exemple Jakarta EE avec IntelliJ Community et Tomcat
+# Projet d'exemple Jakarta EE 10 avec IntelliJ Community et Tomcat 10.1.10
 
-Ce projet d'exemple vous montre comment configurer un projet Jakarta EE dans IntelliJ Community et comment importer la bibliothèque servlet Jakarta dans une classe Java. Il vous guide également sur la configuration de Tomcat dans IntelliJ Community.
+Ce projet d'exemple vous montre comment configurer un projet Jakarta EE dans IntelliJ Community et comment importer la bibliothèque servlet Jakarta dans une classe Java. Il vous guide également sur la configuration de Tomcat 10.1.10 dans IntelliJ Community.
 
 ## Étapes
 

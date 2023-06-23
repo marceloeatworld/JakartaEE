@@ -24,7 +24,8 @@ Ce projet d'exemple vous montre comment configurer un projet Jakarta EE dans Int
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>
-   
+   - et dans la vue jsp:
+     <%@ taglib prefix="c" uri="jakarta.tags.core" %>
   
 
 4. Configurez Tomcat dans IntelliJ Community.

@@ -1,21 +1,21 @@
-# Projet d'exemple Jakarta EE 10 avec IntelliJ Community et Tomcat 10.1.10
+# Example Project Jakarta EE 10 with IntelliJ Community and Tomcat 10.1.10
 
-Ce projet d'exemple vous montre comment configurer un projet Jakarta EE dans IntelliJ Community et comment importer la bibliothèque servlet Jakarta dans une classe Java. Il vous guide également sur la configuration de Tomcat 10.1.10 dans IntelliJ Community.
+This example project shows you how to set up a Jakarta EE project in IntelliJ Community and how to import the Jakarta servlet library into a Java class. It also guides you on setting up Tomcat 10.1.10 in IntelliJ Community.
 
-## Étapes
+## Steps
 
-1. Créez un nouveau projet dans IntelliJ Community.
+1. Create a new project in IntelliJ Community.
    
    ![Création du projet dans IntelliJ Community](1.png)
 
-2. Importez la bibliothèque servlet Jakarta.
+2. Import the Jakarta servlet library.
      ` import jakarta.servlet.*;
        import jakarta.servlet.http.*;
        import jakarta.servlet.annotation.*;  ` 
    
    ![Importation de Servlet Jakarta dans une classe Java](2.png)
    
- 4. Importez la bibliothèque JSF.
+ 4. Import the TSTL library.
     
    ` import jakarta.faces.*;`
    
@@ -29,22 +29,23 @@ Ce projet d'exemple vous montre comment configurer un projet Jakarta EE dans Int
             <version>3.0.1</version>
         </dependency>`
     
-   - et dans la vue jsp:
+   - and in the jsp view:
      
    `  <%@ taglib prefix="c" uri="jakarta.tags.core" %>`
   
 
-4. Configurez Tomcat dans IntelliJ Community.
+4. Set up Tomcat in IntelliJ Community.
    
    ![Configuration de Tomcat dans IntelliJ Community](tomcat.png)
 
-## Téléchargement
+## Download
 
-Vous pouvez télécharger le projet d'exemple complet au format ZIP en cliquant sur le lien suivant : [JakartaEE_Exemple.zip](JakartaEE_Exemple.zip)
+You can download the complete example project in ZIP format by clicking on the following link: 
+[JakartaEE_Exemple.zip](JakartaEE_Exemple.zip)
 
-## Remarque
+## Note
 
-Ce projet d'exemple est fourni à des fins d'illustration et de démonstration uniquement. Il est conçu pour vous aider à comprendre les bases de la configuration Jakarta EE avec IntelliJ Community et Tomcat.
+This example project is provided for illustration and demonstration purposes only. It is designed to help you understand the basics of setting up Jakarta EE with IntelliJ Community and Tomcat.
 
-N'hésitez pas à explorer le code source et à l'utiliser comme point de départ pour vos propres projets Jakarta EE !
+Feel free to explore the source code and use it as a starting point for your own Jakarta EE projects!
 
